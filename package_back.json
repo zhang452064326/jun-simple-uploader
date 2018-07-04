@@ -2,7 +2,7 @@
   "name": "jun-simple-uploader",
   "version": "1.0.0",
   "description": "> A Vue.js upload component powered by [simple-uploader.js](https://github.com/simple-uploader/Uploader)",
-  "main": "dist/vue-uploader.js",
+  "main": ".eslintrc.js",
   "directories": {
     "example": "example"
   },
