@@ -1,0 +1,192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\jump\\Desktop\\jun-simple-uploader',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\jump\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle vue-simple-uploader@0.4.6~prepublish: vue-simple-uploader@0.4.6
+11 silly lifecycle vue-simple-uploader@0.4.6~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\jump\\AppData\\Roaming\\npm-cache\\vue-simple-uploader\\0.4.6\\package.tgz',
+12 verbose tar pack   'C:\\Users\\jump\\Desktop\\jun-simple-uploader' ]
+13 verbose tarball C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package.tgz
+14 verbose folder C:\Users\jump\Desktop\jun-simple-uploader
+15 verbose addLocalTarball adding from inside cache C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package.tgz
+16 verbose correctMkdir C:\Users\jump\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd vue-simple-uploader@0.4.6
+18 verbose afterAdd C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\jump\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package\package.json written
+21 silly publish { _args:
+21 silly publish    [ [ [Object],
+21 silly publish        'D:\\cloudDisk\\cloudDisk-platform\\src\\main\\webapp\\res' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: 'vue-simple-uploader@0.4.6',
+21 silly publish   _inCache: true,
+21 silly publish   _location: '/vue-simple-uploader',
+21 silly publish   _nodeVersion: '8.9.4',
+21 silly publish   _npmOperationalInternal:
+21 silly publish    { host: 's3://npm-registry-packages',
+21 silly publish      tmp: 'tmp/vue-simple-uploader_0.4.6_1525661075148_0.44022729660996496' },
+21 silly publish   _npmUser: { name: 'dolymood', email: 'dolymood@gmail.com' },
+21 silly publish   _npmVersion: '5.6.0',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: 'vue-simple-uploader@^0.4.6',
+21 silly publish      scope: null,
+21 silly publish      escapedName: 'vue-simple-uploader',
+21 silly publish      name: 'vue-simple-uploader',
+21 silly publish      rawSpec: '^0.4.6',
+21 silly publish      spec: '>=0.4.6 <0.5.0',
+21 silly publish      type: 'range' },
+21 silly publish   _requiredBy: [ '/' ],
+21 silly publish   _resolved: 'https://registry.npmjs.org/vue-simple-uploader/-/vue-simple-uploader-0.4.6.tgz',
+21 silly publish   _shasum: '58d6c85c376705066f2472c193311c2e3fed7e14',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: 'vue-simple-uploader@^0.4.6',
+21 silly publish   _where: 'D:\\cloudDisk\\cloudDisk-platform\\src\\main\\webapp\\res',
+21 silly publish   author: { name: 'dolymood@gmail.com' },
+21 silly publish   browserslist: [ '> 1%', 'last 2 versions', 'not ie <= 8' ],
+21 silly publish   bugs: { url: 'https://github.com/simple-uploader/vue-uploader/issues' },
+21 silly publish   dependencies: { 'simple-uploader.js': '^0.2.2' },
+21 silly publish   description: 'A Vue.js upload component powered by simple-uploader.js',
+21 silly publish   devDependencies:
+21 silly publish    { autoprefixer: '^7.1.2',
+21 silly publish      'babel-core': '^6.22.1',
+21 silly publish      'babel-eslint': '^7.1.1',
+21 silly publish      'babel-loader': '^7.1.1',
+21 silly publish      'babel-plugin-add-module-exports': '^0.2.1',
+21 silly publish      'babel-plugin-transform-es2015-modules-umd': '^6.24.1',
+21 silly publish      'babel-plugin-transform-runtime': '^6.22.0',
+21 silly publish      'babel-preset-env': '^1.3.2',
+21 silly publish      'babel-preset-stage-2': '^6.22.0',
+21 silly publish      'babel-register': '^6.22.0',
+21 silly publish      chalk: '^2.0.1',
+21 silly publish      'connect-history-api-fallback': '^1.3.0',
+21 silly publish      'copy-webpack-plugin': '^4.0.1',
+21 silly publish      'css-loader': '^0.28.0',
+21 silly publish      cssnano: '^3.10.0',
+21 silly publish      eslint: '^3.19.0',
+21 silly publish      'eslint-config-standard': '^6.2.1',
+21 silly publish      'eslint-friendly-formatter': '^3.0.0',
+21 silly publish      'eslint-loader': '^1.7.1',
+21 silly publish      'eslint-plugin-html': '^3.0.0',
+21 silly publish      'eslint-plugin-promise': '^3.4.0',
+21 silly publish      'eslint-plugin-standard': '^2.0.1',
+21 silly publish      'eventsource-polyfill': '^0.9.6',
+21 silly publish      express: '^4.14.1',
+21 silly publish      'extract-text-webpack-plugin': '^2.0.0',
+21 silly publish      'file-loader': '^0.11.1',
+21 silly publish      'friendly-errors-webpack-plugin': '^1.1.3',
+21 silly publish      'html-webpack-plugin': '^2.28.0',
+21 silly publish      'http-proxy-middleware': '^0.17.3',
+21 silly publish      opn: '^5.1.0',
+21 silly publish      'optimize-css-assets-webpack-plugin': '^2.0.0',
+21 silly publish      ora: '^1.2.0',
+21 silly publish      rimraf: '^2.6.0',
+21 silly publish      semver: '^5.3.0',
+21 silly publish      shelljs: '^0.7.6',
+21 silly publish      'url-loader': '^0.5.8',
+21 silly publish      vue: '^2.3.3',
+21 silly publish      'vue-loader': '^12.1.0',
+21 silly publish      'vue-style-loader': '^3.0.1',
+21 silly publish      'vue-template-compiler': '^2.3.3',
+21 silly publish      webpack: '^2.6.1',
+21 silly publish      'webpack-bundle-analyzer': '^2.2.1',
+21 silly publish      'webpack-dev-middleware': '^1.10.0',
+21 silly publish      'webpack-hot-middleware': '^2.18.0',
+21 silly publish      'webpack-merge': '^4.1.0' },
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { integrity: 'sha512-6jqs1vcCHaY9eSrgJn7wkJCP1lUkZaUBQHHmot0Fc3cOPPYwrGEyoMn04ao1t9cD6sjID5CefGw3T0nQwQxsWA==',
+21 silly publish      shasum: '7bd953d4e09e87e7d465ce96afed8ea0a7194f19',
+21 silly publish      tarball: 'https://registry.npmjs.org/vue-simple-uploader/-/vue-simple-uploader-0.4.6.tgz',
+21 silly publish      fileCount: 26,
+21 silly publish      unpackedSize: 707105,
+21 silly publish      'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa772UCRA9TVsSAnZWagAAveoP/0FcOvm2I7x3G7OxHXrh\n9nTWh5GbtaBVf1ql9Jk+dC8olXvowVmu6Rc7uYTwTySsAqyz0Ns/YkUgIsQA\nwEGP9AaOJkOhUxhbBmVfm3SqotbZxUkUv8AI93hnzYzzSwAIF8Fd0Y8iTyI1\nEsdsr8fLTDsvHUUG3XWmMvMS4qYq9zZHbIxP0qZKGjZIRmmHaHxCAl/XIql8\nNIBxKxceKqGQPQ/qVRDEO3J/yUp+2lx1HCcL7wsruC86sv6cJsK97AsV1uQI\nrbSxQLf2QmciK67t3UbFqcX7C98Y3cxPfUAkcF30O5R61U1rxgt/XMbSKmiQ\ng3lXlB89ebcKWezVHRc+8vrRwwToAvLj638/VrzgVn05O8bK9W4vHnLL0Rpj\nV/vpXarHlqIr3SBbb8TXl2ys+OqHa7shoQ62+K0wkhX4nC44LvUHVrT0CD7h\nGFbng36r+TV/ln9yNrJdZqnMsshOoMYk3GE0weBUM0RrS8ecEL1CAq1jkAHy\npxBui57w0uas9qROn2r9PkwrAsm5jW2PoGyGhMtkLkzoseiAZIE/c5igKkke\nyn7v3mQnscO1pHUxPjBU/TBub9+xXb5rM7jgsZfQKmiKBO4KqTnljdAxYPQ3\nXGEL8jxXZ0KMoBihE+3uw+7OrjVSRxqG5kiyRHY9+814qQmlc/L/jKxXeDMh\nGfd7\r\n=4qR8\r\n-----END PGP SIGNATURE-----\r\n' },
+21 silly publish   engines: { node: '>= 4.0.0', npm: '>= 3.0.0' },
+21 silly publish   gitHead: '99ea2f91861ad051a5364981f0b5842fea0727dc',
+21 silly publish   homepage: 'https://github.com/simple-uploader/vue-uploader',
+21 silly publish   license: 'MIT',
+21 silly publish   main: 'dist/vue-uploader.js',
+21 silly publish   maintainers: [ { name: 'dolymood', email: 'dolymood@gmail.com' } ],
+21 silly publish   name: 'vue-simple-uploader',
+21 silly publish   optionalDependencies: {},
+21 silly publish   peerDependencies: { vue: '>=2.1' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/simple-uploader/vue-uploader.git' },
+21 silly publish   scripts:
+21 silly publish    { build: 'node build/build.js',
+21 silly publish      dev: 'node build/dev-server.js',
+21 silly publish      lint: 'eslint --ext .js,.vue src test/unit/specs',
+21 silly publish      start: 'node build/dev-server.js' },
+21 silly publish   version: '0.4.6' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name vue-simple-uploader
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'vue-simple-uploader',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'vue-simple-uploader',
+26 silly mapToRegistry   name: 'vue-simple-uploader',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/vue-simple-uploader
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\jump\AppData\Roaming\npm-cache\vue-simple-uploader\0.4.6\package.tgz
+30 verbose request uri https://registry.npmjs.org/vue-simple-uploader
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 14:15:51
+33 verbose request using bearer token for auth
+34 verbose request id 8e30386d7b5e7e7b
+35 http request PUT https://registry.npmjs.org/vue-simple-uploader
+36 http 403 https://registry.npmjs.org/vue-simple-uploader
+37 verbose headers { date: 'Wed, 04 Jul 2018 06:15:52 GMT',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'transfer-encoding': 'chunked',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie': [ '__cfduid=dfb4e482675f48a5803e6d94f51c18eaa1530684950; expires=Thu, 04-Jul-19 06:15:50 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '434f75a9b8abb10a-HKG',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   server: 'cloudflare',
+37 verbose headers   'content-encoding': 'gzip' }
+38 verbose request invalidating C:\Users\jump\AppData\Roaming\npm-cache\registry.npmjs.org\vue-simple-uploader on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You do not have permission to publish "vue-simple-uploader". Are you logged in as the correct user? : vue-simple-uploader
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:216:7
+40 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+40 verbose stack     at emitNone (events.js:91:20)
+40 verbose stack     at Gunzip.emit (events.js:185:7)
+40 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+40 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+40 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+41 verbose statusCode 403
+42 verbose pkgid vue-simple-uploader
+43 verbose cwd C:\Users\jump\Desktop\jun-simple-uploader
+44 error Windows_NT 10.0.17134
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.9.5
+47 error npm  v3.10.10
+48 error code E403
+49 error You do not have permission to publish "vue-simple-uploader". Are you logged in as the correct user? : vue-simple-uploader
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
