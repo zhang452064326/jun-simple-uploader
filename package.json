@@ -1,0 +1,150 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "vue-simple-uploader@^0.4.6",
+        "scope": null,
+        "escapedName": "vue-simple-uploader",
+        "name": "vue-simple-uploader",
+        "rawSpec": "^0.4.6",
+        "spec": ">=0.4.6 <0.5.0",
+        "type": "range"
+      },
+      "D:\\cloudDisk\\cloudDisk-platform\\src\\main\\webapp\\res"
+    ]
+  ],
+  "_from": "vue-simple-uploader@>=0.4.6 <0.5.0",
+  "_id": "vue-simple-uploader@0.4.6",
+  "_inCache": true,
+  "_location": "/vue-simple-uploader",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/vue-simple-uploader_0.4.6_1525661075148_0.44022729660996496"
+  },
+  "_npmUser": {
+    "name": "dolymood",
+    "email": "dolymood@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "vue-simple-uploader@^0.4.6",
+    "scope": null,
+    "escapedName": "vue-simple-uploader",
+    "name": "vue-simple-uploader",
+    "rawSpec": "^0.4.6",
+    "spec": ">=0.4.6 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-simple-uploader/-/vue-simple-uploader-0.4.6.tgz",
+  "_shasum": "7bd953d4e09e87e7d465ce96afed8ea0a7194f19",
+  "_shrinkwrap": null,
+  "_spec": "vue-simple-uploader@^0.4.6",
+  "_where": "D:\\cloudDisk\\cloudDisk-platform\\src\\main\\webapp\\res",
+  "author": {
+    "name": "dolymood@gmail.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/simple-uploader/vue-uploader/issues"
+  },
+  "dependencies": {
+    "simple-uploader.js": "^0.2.2"
+  },
+  "description": "A Vue.js upload component powered by simple-uploader.js",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chalk": "^2.0.1",
+    "connect-history-api-fallback": "^1.3.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.14.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.11.1",
+    "friendly-errors-webpack-plugin": "^1.1.3",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "^0.17.3",
+    "opn": "^5.1.0",
+    "optimize-css-assets-webpack-plugin": "^2.0.0",
+    "ora": "^1.2.0",
+    "rimraf": "^2.6.0",
+    "semver": "^5.3.0",
+    "shelljs": "^0.7.6",
+    "url-loader": "^0.5.8",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.1.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-bundle-analyzer": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-6jqs1vcCHaY9eSrgJn7wkJCP1lUkZaUBQHHmot0Fc3cOPPYwrGEyoMn04ao1t9cD6sjID5CefGw3T0nQwQxsWA==",
+    "shasum": "7bd953d4e09e87e7d465ce96afed8ea0a7194f19",
+    "tarball": "https://registry.npmjs.org/vue-simple-uploader/-/vue-simple-uploader-0.4.6.tgz",
+    "fileCount": 26,
+    "unpackedSize": 707105,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJa772UCRA9TVsSAnZWagAAveoP/0FcOvm2I7x3G7OxHXrh\n9nTWh5GbtaBVf1ql9Jk+dC8olXvowVmu6Rc7uYTwTySsAqyz0Ns/YkUgIsQA\nwEGP9AaOJkOhUxhbBmVfm3SqotbZxUkUv8AI93hnzYzzSwAIF8Fd0Y8iTyI1\nEsdsr8fLTDsvHUUG3XWmMvMS4qYq9zZHbIxP0qZKGjZIRmmHaHxCAl/XIql8\nNIBxKxceKqGQPQ/qVRDEO3J/yUp+2lx1HCcL7wsruC86sv6cJsK97AsV1uQI\nrbSxQLf2QmciK67t3UbFqcX7C98Y3cxPfUAkcF30O5R61U1rxgt/XMbSKmiQ\ng3lXlB89ebcKWezVHRc+8vrRwwToAvLj638/VrzgVn05O8bK9W4vHnLL0Rpj\nV/vpXarHlqIr3SBbb8TXl2ys+OqHa7shoQ62+K0wkhX4nC44LvUHVrT0CD7h\nGFbng36r+TV/ln9yNrJdZqnMsshOoMYk3GE0weBUM0RrS8ecEL1CAq1jkAHy\npxBui57w0uas9qROn2r9PkwrAsm5jW2PoGyGhMtkLkzoseiAZIE/c5igKkke\nyn7v3mQnscO1pHUxPjBU/TBub9+xXb5rM7jgsZfQKmiKBO4KqTnljdAxYPQ3\nXGEL8jxXZ0KMoBihE+3uw+7OrjVSRxqG5kiyRHY9+814qQmlc/L/jKxXeDMh\nGfd7\r\n=4qR8\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "gitHead": "99ea2f91861ad051a5364981f0b5842fea0727dc",
+  "homepage": "https://github.com/simple-uploader/vue-uploader",
+  "license": "MIT",
+  "main": "dist/vue-uploader.js",
+  "maintainers": [
+    {
+      "name": "dolymood",
+      "email": "dolymood@gmail.com"
+    }
+  ],
+  "name": "vue-simple-uploader",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "vue": ">=2.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-uploader/vue-uploader.git"
+  },
+  "scripts": {
+    "build": "node build/build.js",
+    "dev": "node build/dev-server.js",
+    "lint": "eslint --ext .js,.vue src test/unit/specs",
+    "start": "node build/dev-server.js"
+  },
+  "version": "0.4.6"
+}
