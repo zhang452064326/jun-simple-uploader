@@ -31,7 +31,7 @@
         <div class="uploader-file-status">
           <span v-show="status !== 'uploading'">{{statusText}}</span>
           <span v-show="status === 'uploading'">
-            <span class="yofc-file-name">{{progressStyle.progress}}</span>
+            <span  class="yofc-file-name">{{progressStyle.progress}}</span>
             <em>{{formatedAverageSpeed}}</em>
             <!-- <i>{{formatedTimeRemaining}}</i> -->
           </span>
@@ -48,7 +48,7 @@
 </template>
 
 <script>
-  import Uploader from 'simple-uploader.js'
+  import Uploader from 'zhang-simple-uploader.js'
   import events from '../common/file-events'
   import { secondsToStr } from '../common/utils'
 
@@ -107,7 +107,7 @@
         return type
       },
       progressStyle () {
-        const progress = Math.floor(this.progress * 100)
+        const progress = Math.floor(this.progress * 99)
         const style = `translateX(${Math.floor(progress - 99)}%)`
         return {
           progress: `${progress}%`,

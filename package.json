@@ -18,7 +18,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs"
   },
   "dependencies": {
-    "simple-uploader.js": "^0.2.2"
+    "zhang-simple-uploader.js": "^0.2.2"
   },
   "peerDependencies": {
     "vue": ">=2.1"

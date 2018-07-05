@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import Uploader from 'simple-uploader.js'
+  import Uploader from 'zhang-simple-uploader.js'
   import { kebabCase } from '../common/utils'
   import UploaderBtn from './btn.vue'
   import UploaderDrop from './drop.vue'
