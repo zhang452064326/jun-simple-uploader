@@ -1,6 +1,6 @@
 {
   "name": "jun-simple-uploader",
-  "version": "0.4.6",
+  "version": "0.4.8",
   "description": "A Vue.js upload component powered by simple-uploader.js",
   "main": "dist/vue-uploader.js",
   "repository": {
