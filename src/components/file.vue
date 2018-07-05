@@ -31,9 +31,9 @@
         <div class="uploader-file-status">
           <span v-show="status !== 'uploading'">{{statusText}}</span>
           <span v-show="status === 'uploading'">
-            <span>{{progressStyle.progress}}</span>
+            <span class="yofc-file-name">{{progressStyle.progress}}</span>
             <em>{{formatedAverageSpeed}}</em>
-            <i>{{formatedTimeRemaining}}</i>
+            <!-- <i>{{formatedTimeRemaining}}</i> -->
           </span>
         </div>
         <div class="uploader-file-actions">
@@ -108,7 +108,7 @@
       },
       progressStyle () {
         const progress = Math.floor(this.progress * 100)
-        const style = `translateX(${Math.floor(progress - 100)}%)`
+        const style = `translateX(${Math.floor(progress - 99)}%)`
         return {
           progress: `${progress}%`,
           webkitTransform: style,
@@ -416,5 +416,9 @@
   .uploader-file-actions .uploader-file-remove {
     display: block;
     background-position-y: -34px;
+  }
+  .yofc-file-name{
+    white-space: nowrap;
+    overflow: hidden;
   }
 </style>
